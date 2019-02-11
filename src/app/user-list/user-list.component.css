@@ -1,0 +1,19 @@
+li{
+  list-style: none;
+}
+h1{
+  text-align: center;
+  margin: 2px;
+}
+p{
+  font-size: 15px;
+}
+#user-containter{
+  float: left;
+  width: 300px;
+  border: 1px solid black;
+}
+#user-list{
+  overflow: auto;
+  height: 100vh;
+}

@@ -1,0 +1,16 @@
+<div id="post-container">
+  <h1>Post List</h1>
+  <div id="post-list">
+  <h3>Name user: {{userPost.name}}</h3>
+  <p>Address: {{userPost.generateAddress()}}</p>
+  <p>Work: {{userPost.nameCompany}}</p>
+<div>
+  <ul>
+    <li *ngFor="let post of postList">
+      <h5>{{post.title}}</h5>
+      <p>{{post.body}}</p>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
