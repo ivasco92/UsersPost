@@ -1,5 +1,8 @@
+
 <app-user-list [userList]="usersAppCompontent" (userEmitter)="retrivePosts($event)"></app-user-list>
-<app-post-list *ngIf="selectedUser" [postList]="postAppComponentList" [userPost]="selectedUser"></app-post-list>
+<app-post-list *ngIf="selectedUser" [postList]="postAppComponentList" [userPost]="selectedUser">
+
+</app-post-list>
 <div *ngIf="loader" id="loader-container">
   <div id="loader-message">
     <img src="https://loading.io/spinners/typing/lg.-text-entering-comment-loader.gif">
